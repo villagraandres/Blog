@@ -1,0 +1,113 @@
+html{
+    margin: 0;
+    padding: 0 !important;
+}
+body{
+    background-color: #9fa8a6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+#zona-encabezado {
+    background-color: #d1d1b6;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    }
+#zona-imagenes {
+background-color: #304d6b;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+#zona-imagenes {
+    display: block;
+    padding: 10px;
+}
+}
+
+#zona-cuerpo{
+    margin-top: 15px;
+    background-color: #d1d1b6;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+ #zona-final {
+    background-color: #b1cca0;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    }
+
+#zona-final{
+    float: left;
+}
+ 
+
+ .img{
+    
+   width: 270px;
+   height: 270px;
+ }
+
+ .incio{
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ @media screen and (max-width: 768px) {
+    .incio {
+        display: block;
+    }
+    }
+
+    #contact {
+      
+        padding: 80px 0;
+      }
+      
+      #contact h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      #contact p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .social-icons a {
+        margin: 0 10px;
+      }
+      
+      .social-icons i {
+        font-size: 36px;
+        color: #000;
+        transition: color 0.3s ease;
+      }
+      
+      .social-icons i:hover {
+        color: #3F729B;
+      }
+      
